@@ -40,7 +40,7 @@ function searchTimeZone(data){
     function search(){
         const address = searchElement.value;
     
-        fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(address)}&apiKey=66826cc390e94a21a7285de97ae4168d`)
+        fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(address)}&apiKey=bbd0901e47e149958f85c0bdd765359b`)
         .then(resp => resp.json())
         .then((geocodingResult) => {
             if(geocodingResult.features.length > 0){
