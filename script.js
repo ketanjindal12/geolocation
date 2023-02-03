@@ -37,6 +37,7 @@ function searchTimeZone(data){
     offDSTsec.textContent = data.timezone.offset_DST_seconds;
     country.textContent = data.country;
     city.textContent = data.city;
+}
     function search(){
         const address = searchElement.value;
     
